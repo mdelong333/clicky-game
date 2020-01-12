@@ -1,9 +1,13 @@
 .card {
-    background-color: rgb(176, 113, 201);
+    background-color: #fc199a;
     margin: 1rem;
     position: relative;
-    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    box-shadow: 0 0 6px #fc199a, 0 0 40px #fc199a, 0 0 30px #393a33, 0 0 10px #ffffff44;
     text-align: left;
+}
+
+.card:hover {
+    box-shadow: 0 0 6px #fc199a, 0 0 40px #fc199a, 0 0 30px white, 0 0 10px white;
 }
 
 .card > .img {
