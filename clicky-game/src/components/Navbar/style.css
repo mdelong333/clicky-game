@@ -3,21 +3,16 @@
     text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
     padding: 15px;
     font-family: 'sailorMoon';
-    font-size: 40px;
+    font-size: 3.5vw;
 }
 
 .navbar {
     background-color: #3D0B43;
-    display: flex;
-    justify-content: space-around;
-    align-content: space-between;
-    padding: 20px;
-    flex-wrap: wrap;
-    height: 100px;
     border-bottom: solid 3px #61e2ff;
     box-shadow: 0 0 6px #fc199a, 0 0 40px #fc199a, 0 0 30px #393a33, 0 0 10px #ffffff44;
 }
 
 .message {
     font-family: "caslon";
+    text-align: center;
 }
