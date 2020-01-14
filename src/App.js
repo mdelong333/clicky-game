@@ -11,11 +11,7 @@ function shuffle(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
-}
-
-// function navMessage() {
-
-// }
+};
 class App extends Component {
   state = {
     images,
@@ -29,37 +25,32 @@ class App extends Component {
     let clickedImages = this.state.clickedImages;
     let score = this.state.score;
     let highScore = this.state.highScore;
-    this.setState({
-      showAlert: 0
-    });
 
     if (!clickedImages.includes(id)) {
       clickedImages.push(id);
-      console.log(clickedImages);
+      // console.log(clickedImages);
       this.increment();
       this.imageShuffle();
       this.setState({
         message: "Correct!"
       });
     } else if (this.state.score === 12) {
-      // alert player win
-      console.log("win")
+      // show player win message
+      // console.log("win")
       this.setState({
-        message: "You won! Click an image to start a new round",
+        message: "You won! Click an image to Start a new round",
         score: 0,
         clickedImages: []
       });
     } else {
-       // alert player loss
+      // show player loss message
+      //console.log("duplicate");
       this.setState({
         score: 0,
-        clickedImages: []
-      });
-      console.log("duplicate");
-      this.setState({
+        clickedImages: [],
         message: "Bummer, try again!"
       });
-    }
+    };
 
     //set high score
     if (score > highScore) {
