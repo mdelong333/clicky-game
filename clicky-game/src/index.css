@@ -15,3 +15,26 @@ body {
     src: URL('./assets/fonts/sailorMoon.ttf') format('truetype');
     
 }
+
+.footer {
+    padding: 40px;
+    border-top: 3px solid #ffc400ce;
+    border-bottom: 5px solid #ffc400ce;
+    box-shadow: 0 0 6px #100c0f, 0 0 40px #ffaa0099, 0 0 30px #ffaa00, 0 0 15px #ffaa00de;
+    background-color: #290728;
+    text-align: center;
+}
+
+a {
+    color: #ffc400ce;
+    text-shadow: 0 0 2px #100c0f, 0 0 6px #ffaa0099, 0 0 10px #ffaa00, 0 0 15px #ffaa00de;
+    font-style: italic;
+}
+
+a:hover {
+    color: #ffc400ce;
+}
+
+.aura-quartz {
+    filter:drop-shadow(0 0 15px white);
+}
