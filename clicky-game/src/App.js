@@ -36,12 +36,12 @@ class App extends Component {
       console.log(clickedImages);
       this.increment();
       this.imageShuffle();
-      console.log()
       this.setState({
         correctMessage: 1
       });
     } else if (this.state.score === 12) {
-      // alert player wins
+      // alert player win
+      console.log("win")
       this.setState({
         winMessage: 1,
         score: 0,
