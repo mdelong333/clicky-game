@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Sailor Moon",
-        "image": "../images/sailor-moon2.jpg"
+        "image": "/images/sailor-moon2.jpg"
     },
     {
         "id": 2,
