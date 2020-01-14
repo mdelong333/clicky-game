@@ -2,6 +2,8 @@
     color: #61e2ff;
     text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
     padding: 15px;
+    font-family: 'sailorMoon';
+    font-size: 40px;
 }
 
 .navbar {
@@ -13,3 +15,4 @@
     flex-wrap: wrap;
     height: 100px;
 }
+

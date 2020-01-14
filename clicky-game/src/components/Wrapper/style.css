@@ -8,4 +8,5 @@
     justify-content: space-around;
     align-content: flex-start;
     overflow: auto;
+    border-top: solid 3px #61e2ff;
 }
