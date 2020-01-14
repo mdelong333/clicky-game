@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Sailor Moon",
-        "image": "../assets/images/sailor-moon2.jpg"
+        "image": "../images/sailor-moon2.jpg"
     },
     {
         "id": 2,
         "name": "Luna",
-        "image": "../assets/images/luna.jpg"
+        "image": "../images/luna.jpg"
     },
     {
         "id": 3,
         "name": "Sailor Jupiter",
-        "image": "../assets/images/sailor-jupiter.jpg"
+        "image": "../images/sailor-jupiter.jpg"
     },
     {
         "id": 4,
         "name": "Sailor Mars",
-        "image": "../assets/images/sailor-mars2.jpeg"
+        "image": "../images/sailor-mars2.jpeg"
     },
     {
         "id": 5,
         "name": "Sailor Mercury",
-        "image": "../assets/images/sailor-mercury2.jpg"
+        "image": "../images/sailor-mercury2.jpg"
     },
     {
         "id": 6,
         "name": "Sailor Neptune",
-        "image": "../assets/images/sailor-neptune.jpg"
+        "image": "../images/sailor-neptune.jpg"
     },
     {
         "id": 7,
         "name": "Sailor Pluto",
-        "image": "../assets/images/sailor-pluto.png"
+        "image": "../images/sailor-pluto.png"
     },
     {
         "id": 8,
         "name": "Sailor Saturn",
-        "image": "../assets/images/sailor-saturn.jpg"
+        "image": "../images/sailor-saturn.jpg"
     },
     {
         "id": 9,
         "name": "Sailor Uranus",
-        "image": "../assets/images/sailor-uranus2.jpeg"
+        "image": "../images/sailor-uranus2.jpeg"
     },
     {
         "id": 10,
         "name": "Sailor Venus",
-        "image": "../assets/images/sailor-venus.jpeg"
+        "image": "../images/sailor-venus.jpeg"
     },
     {
         "id": 11,
         "name": "Artemis",
-        "image": "../assets/images/artemis.jpg"
+        "image": "../images/artemis.jpg"
     },
     {
         "id": 12,
         "name": "Tuxedo Mask",
-        "image": "../assets/images/tuxedo-mask2.jpg"
+        "image": "../images/tuxedo-mask2.jpg"
     }
 ]
