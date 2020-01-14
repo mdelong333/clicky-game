@@ -2,12 +2,12 @@
     {
         "id": 1,
         "name": "Sailor Moon",
-        "image": "/images/sailor-moon2.jpg"
+        "image": "%PUBLIC_URL%/images/sailor-moon2.jpg"
     },
     {
         "id": 2,
         "name": "Luna",
-        "image": "../images/luna.jpg"
+        "image": "./images/luna.jpg"
     },
     {
         "id": 3,
