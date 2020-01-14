@@ -1,8 +1,15 @@
 .nav-item {
     color: #61e2ff;
     text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
+    padding: 15px;
 }
 
 .navbar {
     background-color: #3D0B43;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 100px;
 }
