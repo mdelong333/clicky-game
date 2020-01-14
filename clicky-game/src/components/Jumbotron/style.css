@@ -4,9 +4,15 @@
     font-style: italic;
     background-color: #290728;
     text-align: center;
-    border-top: solid 3px #61e2ff;
+    
 }
 
 h1 {
     font-family: 'caslon';
+}
+
+p {
+    font-family: "sailorMoon";
+    font-size: 33px;
+    letter-spacing: 2px;
 }

@@ -9,4 +9,5 @@
     align-content: flex-start;
     overflow: auto;
     border-top: solid 3px #61e2ff;
+    box-shadow: 0 0 6px #fc199a, 0 0 40px #fc199a, 0 0 30px #393a33, 0 0 10px #ffffff44;
 }
