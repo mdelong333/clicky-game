@@ -12,14 +12,16 @@ function shuffle(array) {
   }
   return array;
 }
+
+// function navMessage() {
+
+// }
 class App extends Component {
   state = {
     images,
     score: 0,
     highScore: 0,
-    lossMessage: 0,
-    winMessage: 0,
-    correctMessage: 0,
+    message: "Click an image to Start!",
     clickedImages: []
   };
   
@@ -37,13 +39,13 @@ class App extends Component {
       this.increment();
       this.imageShuffle();
       this.setState({
-        correctMessage: 1
+        message: "Correct!"
       });
     } else if (this.state.score === 12) {
       // alert player win
       console.log("win")
       this.setState({
-        winMessage: 1,
+        message: "You won! Click an image to start a new round",
         score: 0,
         clickedImages: []
       });
@@ -55,7 +57,7 @@ class App extends Component {
       });
       console.log("duplicate");
       this.setState({
-        lossMessage: 1
+        message: "Bummer, try again!"
       });
     }
 
@@ -83,6 +85,7 @@ class App extends Component {
         <Navbar 
           score={this.state.score}
           highScore={this.state.highScore}
+          message={this.state.message}
         />
         <Jumbotron />
         <Wrapper>
