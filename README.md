@@ -5,6 +5,9 @@ Sailor Moon Clicky Game is a memory game built using React. There are 12 Sailor 
 
  _**[Click here to play](https://mdelong333.github.io/clicky-game/)**_
 
- 
+ ![screenshot](./public/images/screenshots/Sailor-Moon-Clicky1.png)
+
+
+ ![screenshot](./public/images/screenshots/Sailor-Moon-Clicky2.png)
 
 ## Tech Used
