@@ -1,9 +1,11 @@
 .jumbotron {
     color: #ffc400ce;
-    text-shadow: 0 0 2px #100c0f, 0 0 6px #ffaa0099, 0 0 10px #ffaa00, 0 0 15px #ffaa00de;
+    text-shadow: 0 0 8px #100c0f, 0 0 12px #ffaa00, 0 0 20px #ffaa00, 0 0 30px #ffaa00de;
     font-style: italic;
     background-color: #290728;
     text-align: center;
+    background: rgb(34,143,167);
+    background: radial-gradient(circle, rgba(34,143,167,1) 0%, rgba(61,11,67,1) 6%, rgba(252,25,154,1) 16%, rgba(34,143,167,1) 24%, rgba(61,11,67,1) 32%, rgba(252,25,154,1) 42%, rgba(255,170,0,1) 66%, rgba(61,11,67,1) 94%);
 }
 
 h1 {
